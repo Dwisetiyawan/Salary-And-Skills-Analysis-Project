@@ -11,4 +11,8 @@ The focus of this analysis is to know what skills needed to become a data analys
 
 ## Key Insights ## 
 
-[Data Analyst Skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/Data%20Analyst%20Skills.jpg)
+The top 10 skills for Data Analyst is as shown by the chart below.
+
+![Data Analyst Skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/Data%20Analyst%20Skills.jpg)
+
+SQL, Excel, Python are top 3 skills with skill likelihood (the percentage of each skill mentioned in every data analyst job postings) 52%, 40%, and 29%. Beside that, Tableau and Power BI as the most common data visualization tools are on the 4<sup>th</sup> and 6<sup>th</sup> position with skill likelihood 28% and 17%.
