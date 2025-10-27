@@ -52,27 +52,28 @@ As for an aspiring data analyst, SQL, Excel, Python, and Tableau are the skills 
         b. data_jobs_skills : listing the skills for each job id
     2. Transform :  transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace
     
-    ![data_jobs_salary](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_salary_transform.jpg)
+        ![data_jobs_salary](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_salary_transform.jpg)
 
-    ![data_jobs_skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_skills_transform.jpg)
+        ![data_jobs_skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_skills_transform.jpg)
 
     3. Load : loaded both transformed queries into the workbook
-    ![data_jobs_salary](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_salary_load.jpg)
+        ![data_jobs_salary](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_salary_load.jpg)
 
-    ![data_jobs_skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_skills_load.jpg)
+        ![data_jobs_skills](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_jobs_skills_load.jpg)
 
 - Power Pivot : 
 created a data model by integrating the data_jobs_all and data_jobs_skills tables into one model, created relationship between two tables using the job_id column
 
-![data_model](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_model.jpg)
+    ![data_model](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/data_model.jpg)
 
 - Pivot Table & DAX
 
     1. Pivot Table : created a PivotTable using the Data Model created before with Power Pivot
 
-    ![pivot_table](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/pivot_table.jpg)
+        ![pivot_table](https://github.com/Dwisetiyawan/Salary-And-Skills-Analysis-Project/blob/main/Documentation/pivot_table.jpg)
 
     2. DAX : calculate the median salary, job count, skill count, skills likelihood 
+    
     ```
     Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
     ```
